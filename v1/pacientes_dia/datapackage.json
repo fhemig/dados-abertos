@@ -9,7 +9,7 @@
         "fields": [
           {
             "name": "data",
-            "type": "integer",
+            "type": "string",
             "format": "default"
           },
           {

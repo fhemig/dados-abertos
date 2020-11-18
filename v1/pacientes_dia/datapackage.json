@@ -9,7 +9,7 @@
         "fields": [
           {
             "name": "data",
-            "type": "string",
+            "type": "date",
             "format": "default"
           },
           {

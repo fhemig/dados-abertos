@@ -13,6 +13,18 @@
       "dialect": "dialect.json",
       "format": "csv"
     },
+	{
+      "name": "20201001-pacientes_dia",
+      "path": "data/20201001-pacientes_dia.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Pacientes Dia Outubro de 2020",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "description": "Contém dados do número de pacientes dia por unidade hospitalar da FHEMIG",
+      "dialect": "dialect.json",
+      "format": "csv"
+    }
   "keywords": [
     "fhemig números",
     "pacientes dia",

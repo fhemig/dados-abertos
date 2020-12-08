@@ -2,53 +2,17 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "pacientes_dia",
-      "path": "https://raw.githubusercontent.com/fhemig/dados-abertos/main/v1/pacientes_dia/data/20200801-pacientes_dia.csv",
+      "name": "20200901-pacientes_dia",
+      "path": "data/20200901-pacientes_dia.csv",
       "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "name": "data",
-            "type": "date",
-            "format": "default"
-          },
-          {
-            "name": "complexo",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "hospital",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "clinica",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "enfermaria",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "leito",
-            "type": "string",
-            "format": "default"
-          },
-          {
-            "name": "pacientes_dia",
-            "type": "integer",
-            "format": "default"
-          }
-        ]
-      },
-      "title": "Fhemig Pacientes Dia",
-      "format": "csv",
-      "description": "Número de pacientes dia da Fundação Hospitalar de Minas Gerais - FHEMIG/MG"
-    }
-  ],
+      "schema": "schema.json",
+      "title": "Pacientes Dia Setembro de 2020",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "description": "Contém dados do número de pacientes dia por unidade hospitalar da FHEMIG",
+      "dialect": "dialect.json",
+      "format": "csv"
+    },
   "keywords": [
     "fhemig números",
     "pacientes dia",
@@ -56,7 +20,7 @@
   ],
   "name": "pacientes_dia",
   "title": "pacientes_dia",
-  "homepage": "https://raw.githubusercontent.com/fhemig/dados-abertos/main/v1/pacientes_dia/20200801-pacientes_dia.csv",
+  "homepage": "https://github.com/fhemig/dados-abertos",
   "contributors": [
     {
       "title": "Gabriel Dornas",
@@ -69,5 +33,6 @@
       "title": "Creative Commons Attribution Share-Alike 4.0",
       "path": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
+  ]
   ]
 }

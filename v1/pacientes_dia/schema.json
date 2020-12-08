@@ -1,0 +1,44 @@
+{
+  "fields": [
+	  {
+		"name": "data",
+		"type": "date",
+		"format": "default"
+	  },
+	  {
+		"name": "complexo",
+		"type": "string",
+		"format": "default"
+	  },
+	  {
+		"name": "hospital",
+		"type": "string",
+		"format": "default"
+	  },
+	  {
+		"name": "clinica",
+		"type": "string",
+		"format": "default"
+	  },
+	  {
+		"name": "enfermaria",
+		"type": "string",
+		"format": "default"
+	  },
+	  {
+		"name": "leito",
+		"type": "string",
+		"format": "default"
+	  },
+	  {
+		"name": "pacientes_dia",
+		"type": "integer",
+		"format": "default"
+	  }
+    ],
+	 "missingValues": [
+    "NA",
+    ""
+	]
+}
+      

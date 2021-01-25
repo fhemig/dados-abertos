@@ -15,7 +15,7 @@
     },
 	{
       "name": "20201001-pacientes_dia",
-      "path": "data/20201001-pacientes_dia.csv",
+      "path": "d20201001-pacientes_dia.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Pacientes Dia Outubro de 2020",

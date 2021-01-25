@@ -10,7 +10,6 @@
       "mediatype": "text/csv",
       "encoding": "UTF-8",
       "description": "Contém dados do número de pacientes dia por unidade hospitalar da FHEMIG",
-      "dialect": "dialect.json",
       "format": "csv"
     },
 	{
@@ -22,7 +21,6 @@
       "mediatype": "text/csv",
       "encoding": "UTF-8",
       "description": "Contém dados do número de pacientes dia por unidade hospitalar da FHEMIG",
-      "dialect": "dialect.json",
       "format": "csv"
     }],
   "keywords": [

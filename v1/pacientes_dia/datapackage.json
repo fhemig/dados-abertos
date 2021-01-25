@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "20200901-pacientes_dia",
-      "path": "20200901-pacientes_dia.csv",
+      "path": "data/20200901-pacientes_dia.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Pacientes Dia Setembro de 2020",
